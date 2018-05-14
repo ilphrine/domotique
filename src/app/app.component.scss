@@ -1,0 +1,45 @@
+$base-color: rgb(0, 2, 117);
+
+
+.body {
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+
+.main {
+    display: flex;
+    flex: 1 1 80%;
+}
+
+
+.header {
+    background: $base-color;
+    // flex: 1 1 10%;
+}
+
+.navigation {
+    background: rgb(1, 93, 136);
+    flex: 1 1 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.centre {
+    background: rgb(216, 216, 216);
+    flex: 6 1 0;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.footer {
+    background: $base-color;
+    // height: 3em;
+    flex: 1 1 5%;
+}
+
+
