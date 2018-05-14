@@ -1,0 +1,12 @@
+const mongoose  = require('mongoose');
+
+var ProductSchema =new mongoose.Schema(
+    { type: String,
+      brand: String,
+      name: String,
+      popularity: Number,
+      price: Number,
+      picture: String,
+      stock: Number });
+  
+  var ProductModel = mongoose.model('products',ProductSchema);

@@ -1,0 +1,26 @@
+{
+  "name": "domotique",
+  "version": "1.0.0",
+  "description": "serveur qui gere la connexion avec l'arduino",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilphrine/domotique.git"
+  },
+  "author": "hugo DELATTE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilphrine/domotique/issues"
+  },
+  "homepage": "https://github.com/ilphrine/domotique#readme",
+  "dependencies": {
+    "mongoose": "^5.0.15",
+    "parser-readline": "^1.0.2",
+    "pm2": "^2.10.2",
+    "serialport": "^6.1.1"
+  }
+}
